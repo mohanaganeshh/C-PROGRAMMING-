@@ -1,0 +1,25 @@
+Printing different Data types
+
+#include <stdio.h>
+int main() {
+    int a = 5;
+    float b = 78.4;
+    char* c = "hello";
+    printf("%d\n",a);
+    printf("%f\n",b);
+    printf("%s",c);
+    return 0;
+}
+
+-------------------------------------------------
+
+Print the assigned values
+
+
+#include <stdio.h>
+int main() {
+    int a=4,b=7,c=9;
+    printf("%d\n%d\n%d\n",a,b,c);
+    return 0;
+}
+

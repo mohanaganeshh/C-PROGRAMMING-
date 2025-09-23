@@ -1,0 +1,28 @@
+Increment or Decrement 
+
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("enter value of a and b : ");
+    scanf("%d %d",&a,&b);
+    a++;
+    printf("the increament of a is %d\n",a);
+    b--;
+    printf("the decreament of a is %d",b);
+    return 0;
+}
+
+
+Arithmetic Operators
+
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("enter value of a and b :");
+    scanf("%d %d",&a,&b);
+    printf("sum of a and b is %d\n",a+b);
+    printf("difference of a and b is %d\n",a-b);
+    printf("multiply of a and b is %d\n",a*b);
+    printf("division of a and b is %d\n",a/b);
+    return 0;
+}
