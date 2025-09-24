@@ -64,6 +64,6 @@ int main()
             printf("\nInvalid Choice...\n");
             break;
         }
-        return 0;
     }while(choice != 6);
+return 0;
 }
