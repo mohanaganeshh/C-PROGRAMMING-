@@ -1,0 +1,16 @@
+DAY 3 - WHILE LOOP (multiplication of numbers)
+
+#include <stdio.h>
+int main()
+{
+    int i=1,n,m=1;
+    printf("Enter the limit : ");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        m *= i;
+        i++;
+    }
+    printf("Multiplication of the numbers : %d\n",m);
+    return 0;
+}
