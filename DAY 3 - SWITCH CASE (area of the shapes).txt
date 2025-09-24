@@ -1,0 +1,69 @@
+
+DAY 3 - SWITCH CASE (AREA OF THE SHAPES)
+
+
+#include <stdio.h>
+int main()
+{
+    int r,l,b,h,choice;
+    float A;
+    do
+    {
+        printf("---Area Of The Shapes---\n");
+        printf("\nchoose a shape\n");
+        printf("1.Square\n");
+        printf("2.Rectangle\n");
+        printf("3.Circle\n");
+        printf("4.Triangle\n");
+        printf("5.Rhombus\n");
+        printf("6.Exit\n");
+        printf("Enter your choice : ");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+            case 1:
+            printf("Enter the length and breadth : ");
+            scanf("%d %d",&l,&b);
+            A=l*b;
+            printf("Area of Square = %f\n",A);
+            break;
+            
+            case 2:
+            printf("Enter the length and breadth : ");
+            scanf("%d %d",&l,&b);
+            A=l*b;
+            printf("Area of Rectangle = %f\n",A);
+            break;
+            
+            case 3:
+            printf("Enter the radius : ");
+            scanf("%d",&r);
+            A=3.14*r*r;
+            printf("Area of Circle = %f\n",A);
+            break;
+            
+            case 4:
+            printf("Enter the height and breadth : ");
+            scanf("%d %d",&h,&b);
+            A=h*b/2;
+            printf("Area of Square = %f\n",A);
+            break;
+            
+            case 5:
+            printf("Enter the length and breadth : ");
+            scanf("%d %d",&l,&b);
+            A=l*b;
+            printf("Area of Rhombus = %f\n",A);
+            break;
+            
+            case 6:
+            printf("\nProgram Existing...\n");
+            break;
+            
+            default:
+            printf("\nInvalid Choice...\n");
+            break;
+        }
+        return 0;
+    }while(choice != 6);
+}
