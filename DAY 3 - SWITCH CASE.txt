@@ -1,0 +1,36 @@
+
+DAY 3 - SWITCH CASE
+
+#include <stdio.h>
+int main()
+{
+    int choice;
+    do
+    {
+        printf("\n---Menu---\n");
+        printf("1.say hello \n");
+        printf("2.say how are you?\n");
+        printf("3.say bye\n");
+        printf("Enter your choice : ");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+            case 1:
+            printf("\nHello friend !\n");
+            break;
+            
+            case 2:
+            printf("\nHow are you ?\n");
+            break;
+            
+            case 3:
+            printf("\nBye!\n");
+            break;
+            
+            default:
+            printf("\nInvalid Choice...\n");
+            break;
+        }
+    }while(choice != 3);
+     return 0;
+}
