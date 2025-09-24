@@ -1,0 +1,17 @@
+DAY 3 - DO WHILE LOOP (SUM OF THE NUMBERS)
+
+
+#include <stdio.h>
+int main()
+{
+    int i=1,sum=0,n;
+    printf("Enter a number : ");
+    scanf("%d",&n);
+    do
+    {
+        sum += i;
+        i++;
+    }while(i<=n);
+    printf("%d",sum);
+    return 0;
+}

@@ -1,0 +1,17 @@
+DAY 3 - FOR LOOP (TABLES)
+
+
+#include <stdio.h>
+int main()
+{
+    int i,n,R;
+    printf("Enter a number : ");
+    scanf("%d",&n);
+    printf("Enter the range : ");
+    scanf("%d",&R);
+    for(i=1;i<=R;i++)
+    {
+        printf("%d * %d = %d\n",n,i,n*i);
+    }
+    return 0;
+}
