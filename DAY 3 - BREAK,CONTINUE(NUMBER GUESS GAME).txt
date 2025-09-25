@@ -1,0 +1,37 @@
+DAY 3 - BREAK,CONTINUE(NUMBER GUESSING GAME)
+
+#include <stdio.h>
+
+int main()
+{
+    int i=1,n,num,g;
+    printf("===Number Guessing Game===\n");
+    printf("\nEnter a number from 1 to 5 : ");
+    scanf("%d",&g);
+    if(g==1)
+    num = 25;
+    if(g==2)
+    num = 16;
+    if(g==3)
+    num = 11;
+    if(g==4)
+    num = 7;
+    if(g==5)
+    num = 21;
+    printf("\n***Game starts***\n");
+    do
+    {
+        printf("Enter a number : ");
+        scanf("%d",&n);
+        if(n!=num)
+        continue;
+        if(n==num){
+        printf("\n===Yes You Got It===\n");
+        printf("\n***Game Ends***\n");
+        break;
+        }
+        i++;
+    }
+    while(n!=num);
+    return 0;
+}
