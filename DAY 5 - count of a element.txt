@@ -1,0 +1,24 @@
+DAY 5 - count of a element
+
+#include <stdio.h>
+int main()
+{
+   int i,n,x,count=0;
+   printf("Enter limit to an array: ");
+   scanf("%d",&n);
+   int a[n];
+   printf("Add numbers to an array : ");
+   for(i=0;i<n;i++)
+   {
+       scanf("%d",&a[i]);
+   }
+   printf("Enter number to count : ");
+   scanf("%d",&x);
+   for(i=0;i<n;i++)
+   {
+       if(a[i]==x)
+       count++;
+   }
+   printf("The count of the %d is %d times occurs in an array\n",x,count);
+    return 0;
+}
